@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-xl rounded-lg mx-4 mt-1 mb-1">
-      <div className="container mx-auto flex items-center justify-between p-2">
+      <div className="container mx-auto flex items-center justify-between p-3">
         {/* Navbar Name */}
         <div className="text-2xl font-medium"><span className='text-[#7D6EEB]'>N</span>AV<span className='text-[#7D6EEB]'>B</span>AR</div>
         
@@ -49,13 +49,13 @@ const Navbar = () => {
         <div className="hidden lg:flex space-x-4 items-center">
           <a
             href="#login"
-            className="text-gray-700 px-3 py-2 border-[1px] rounded-md border-gray-400 hover:text-gray-900"
+            className="text-gray-700 px-3 py-1 md:px-3 md:py-1 border-[1px] rounded-md border-gray-400 hover:text-gray-900"
           >
             Login
           </a>
           <a
             href="#signup"
-            className="bg-[#7D6EEB] text-white px-4 py-2 rounded-md hover:bg-[#5a4cb0]"
+            className="bg-[#7D6EEB] text-white md:px-4 md:py-1 rounded-md hover:bg-[#5a4cb0]"
           >
             Signup
           </a>

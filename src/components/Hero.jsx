@@ -6,13 +6,15 @@ const Hero = () => {
     <section className="z-50 absolute  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center p-4 md:p-6 w-full md:w-1/2">
       <div className="p-4 mx-4 md:max-w-5xl">
         {/* Main Heading */}
-        <h1 className="text-2xl md:text-4xl font-bold mb-4">
+        <h1 className="text-2xl md:text-4xl font-medium mb-4">
           We’ve really sped up our workflow
         </h1>
 
         {/* Subheading */}
-        <p className="text-sm md:text-lg mb-6">
-          We’ve just released a new update! Check out the all-new dashboard view. Pages now load faster. You can try us for free for 30 days. Join 4,000+ companies already growing.
+        <p className="text-sm  md:text-lg mb-6">
+          We’ve just released a new update! Check out the all-new dashboard view. Pages now load faster. You can try us for free for 30 days. 
+          <br />
+          Join 4,000+ companies already growing.
         </p>
 
         {/* Buttons */}
